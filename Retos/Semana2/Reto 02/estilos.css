@@ -14,12 +14,13 @@ body{
   padding-left: 30px; /* Espacio de central los input*/
 }
 
-legend{
+label{
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  margin-top: 13px;
-  margin-bottom: 5px;
+  margin: 20px 0 20px 0;
+  /* margin-top: 20px;
+  margin-bottom: 10px; */
 }
 
 input{
@@ -27,6 +28,7 @@ input{
   height: 30px; /* alto del input*/
   padding-left: 10px; /* espacio dentro del input*/
   margin-top: 10px; /* margen superior*/
+  margin-bottom: 10px;
 }
 
 input[type=radio] {
