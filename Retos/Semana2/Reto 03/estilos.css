@@ -1,0 +1,83 @@
+h1{
+    font-size: 24px; /* tamaño de letra*/  
+    margin-top: 25px;
+}
+
+body{
+  height: 100%; 
+  font-family: Arial;
+}
+
+.form{  
+  width: 430px; /* tamaño del DIV formulario*/
+  height: auto;
+  margin: 80px auto; /* central DIV*/
+  padding-left: 30px; /* Espacio de central los input*/
+  background-color: lightcyan ;
+}
+
+legend{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 13px;
+  margin-bottom: 5px;
+}
+
+label{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 13px;
+  margin-bottom: 5px;
+}
+
+input{
+  width: 380px; /* Ancho de input*/ 
+  height: 30px; /* alto del input*/
+  padding-left: 10px; /* espacio dentro del input*/
+  margin-top: 10px; /* margen superior*/
+}
+
+input[type=radio] {
+  border: 0px;
+  width: 10%;
+  height: 1.3em;
+  margin-bottom: 5px;
+}
+
+select{
+  font-size: 16px;
+  width: 90%;
+  padding: 5px;
+}
+
+input[type=checkbox] {
+  width: 10%;
+  height: 1.3em;
+  margin-bottom: 5px;
+}
+
+button{
+  height: 45px; /* alto de boton*/
+  width: 120px;   /* ancho del boton*/
+  border-radius: 5px;
+  background-color: #3489eb; /* color del boton*/
+  font-size: 18px; /* tamaño de letra*/
+  color: white; /* color de letra*/
+  border-style: inherit; 
+  margin-top: 10px; /* magen superior*/
+  margin-left: 140px; /* margen izquierdo*/
+}
+
+input:focus{
+    outline: none;
+}
+
+input:valid:focus {
+   border: 1px solid green;   
+}
+
+input:invalid:focus {
+   border: 1px solid red;   
+}
